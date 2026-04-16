@@ -1,0 +1,6 @@
+_ = input()
+englishset = set(map(int, input().split()))
+_ = input()
+frenchset = set(map(int, input().split()))
+result = englishset.symmetric_difference(frenchset)
+print(len(result))
